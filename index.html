@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Spotify-inspired static website built with HTML and CSS.">
+  <title>Tunely | Music for every mood</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html"><img src="assets/logo.svg" alt="Tunely logo, a green circle with three curved sound waves" width="36" height="36"><span>Tunely</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="browse.html">Browse</a></li>
+        <li><a href="playlist.html">Playlist</a></li>
+        <li><a href="#footer-links">Premium</a></li>
+        <li><a href="#footer-links">Support</a></li>
+        <li><a href="#footer-links">Download</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="hero">
+      <h1>Listening is everything.</h1>
+      <p class="hero-sub">Millions of songs and playlists, ready for your commute, your study session and your workout. Create a free account to start.</p>
+      <form class="signup-form" action="#" method="get">
+        <label for="email" class="visually-hidden">Email address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        <button type="submit" class="btn btn-primary">Sign up free</button>
+      </form>
+      <p class="form-note">Demo form only &ndash; it does not send or save anything.</p>
+    </section>
+
+    <section class="section">
+      <h2>Featured playlists</h2>
+      <ul class="card-row">
+        <li><a class="card" href="playlist.html"><img src="assets/cover-daily.svg" alt="Green gradient cover with the words Daily Mix" width="300" height="300"><h3>Daily Mix</h3><p>Fresh picks made for your day.</p></a></li>
+        <li><a class="card" href="playlist.html"><img src="assets/cover-focus.svg" alt="Blue gradient cover with the words Deep Focus" width="300" height="300"><h3>Deep Focus</h3><p>Calm tracks for studying.</p></a></li>
+        <li><a class="card" href="playlist.html"><img src="assets/cover-throwback.svg" alt="Orange and red gradient cover with the word Throwback" width="300" height="300"><h3>Throwback Hits</h3><p>Songs you grew up with.</p></a></li>
+        <li><a class="card" href="playlist.html"><img src="assets/cover-newrel.svg" alt="Purple gradient cover with the words New Music" width="300" height="300"><h3>New Music Friday</h3><p>This week's new releases.</p></a></li>
+        <li><a class="card" href="playlist.html"><img src="assets/cover-roadtrip.svg" alt="Blue gradient cover with the words Road Trip" width="300" height="300"><h3>Road Trip</h3><p>Windows down, volume up.</p></a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="site-footer" id="footer-links">
+    <div class="footer-inner">
+      <p class="brand-small">Tunely &mdash; a student project inspired by Spotify. Not affiliated with Spotify.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html">Browse</a></li>
+        <li><a href="playlist.html">Playlist</a></li>
+        <li><a href="#footer-links">Premium</a></li>
+        <li><a href="#footer-links">Support</a></li>
+        <li><a href="#footer-links">Download</a></li>
+        <li><a href="#footer-links">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
